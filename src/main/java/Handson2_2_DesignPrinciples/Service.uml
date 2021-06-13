@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Handson2_2_DesignPrinciples.Service</OriginalElement>
+  <nodes>
+    <node x="195.0" y="137.0">Handson2_2_DesignPrinciples.Service.AudiHeadlight</node>
+    <node x="473.3705246913581" y="465.0">Handson2_2_DesignPrinciples.Service.MercedesFactory</node>
+    <node x="681.4499999999999" y="126.0">Handson2_2_DesignPrinciples.Service.Factory</node>
+    <node x="360.0" y="279.0">Handson2_2_DesignPrinciples.Service.AudiFactory</node>
+    <node x="0.0" y="137.0">Handson2_2_DesignPrinciples.Service.MercedesHeadlight</node>
+    <node x="176.2026234567901" y="0.0">Handson2_2_DesignPrinciples.Service.Headlight</node>
+    <node x="378.44999999999993" y="137.0">Handson2_2_DesignPrinciples.Service.AudiTire</node>
+    <node x="525.4499999999999" y="137.0">Handson2_2_DesignPrinciples.Service.MercedesTire</node>
+    <node x="626.3776234567902" y="0.0">Handson2_2_DesignPrinciples.Service.Tire</node>
+    <node x="619.4538580246914" y="795.0">Handson2_2_DesignPrinciples.Service.TestingPrinciples</node>
+    <node x="478.3705246913581" y="641.0">Handson2_2_DesignPrinciples.Service.FactoryController</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Handson2_2_DesignPrinciples.Service.Factory" target="Handson2_2_DesignPrinciples.Service.Headlight" relationship="DEPENDENCY">
+      <point x="-49.25" y="-50.5" />
+      <point x="730.6999999999999" y="96.0" />
+      <point x="411.9200617283951" y="96.0" />
+      <point x="411.9200617283951" y="86.0" />
+      <point x="261.7026234567901" y="86.0" />
+      <point x="28.5" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesTire" target="Handson2_2_DesignPrinciples.Service.Tire" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="593.4499999999999" y="106.0" />
+      <point x="548.5026234567902" y="106.0" />
+      <point x="548.5026234567902" y="76.0" />
+      <point x="646.3776234567902" y="76.0" />
+      <point x="-20.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiTire" target="Handson2_2_DesignPrinciples.Service.Tire" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="441.44999999999993" y="106.0" />
+      <point x="548.5026234567902" y="106.0" />
+      <point x="548.5026234567902" y="76.0" />
+      <point x="646.3776234567902" y="76.0" />
+      <point x="-20.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiHeadlight" target="Handson2_2_DesignPrinciples.Service.Headlight" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="267.0" y="106.0" />
+      <point x="169.03981481481492" y="106.0" />
+      <point x="169.03981481481492" y="96.0" />
+      <point x="204.7026234567901" y="96.0" />
+      <point x="-28.5" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesFactory" target="Handson2_2_DesignPrinciples.Service.Factory" relationship="GENERALIZATION">
+      <point x="49.25" y="-62.0" />
+      <point x="621.1205246913581" y="434.0" />
+      <point x="769.2871913580248" y="434.0" />
+      <point x="769.2871913580248" y="248.0" />
+      <point x="730.6999999999999" y="248.0" />
+      <point x="-49.25" y="50.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiFactory" target="Handson2_2_DesignPrinciples.Service.Tire" relationship="DEPENDENCY">
+      <point x="39.39999999999998" y="-62.0" />
+      <point x="497.9" y="258.0" />
+      <point x="514.9499999999999" y="258.0" />
+      <point x="514.9499999999999" y="86.0" />
+      <point x="823.2447530864197" y="86.0" />
+      <point x="823.2447530864197" y="76.0" />
+      <point x="686.3776234567902" y="76.0" />
+      <point x="20.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.FactoryController" target="Handson2_2_DesignPrinciples.Service.Factory" relationship="DEPENDENCY">
+      <point x="62.33333333333337" y="-51.0" />
+      <point x="634.2038580246915" y="615.0" />
+      <point x="780.2871913580248" y="615.0" />
+      <point x="780.2871913580248" y="258.0" />
+      <point x="793.3697530864197" y="258.0" />
+      <point x="793.3697530864197" y="248.0" />
+      <point x="829.1999999999999" y="248.0" />
+      <point x="49.25" y="50.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesFactory" target="Handson2_2_DesignPrinciples.Service.MercedesHeadlight" relationship="CREATE">
+      <point x="-82.08333333333337" y="-62.0" />
+      <point x="489.78719135802476" y="434.0" />
+      <point x="87.5" y="434.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.FactoryController" target="Handson2_2_DesignPrinciples.Service.AudiFactory" relationship="CREATE">
+      <point x="-62.33333333333337" y="-51.0" />
+      <point x="509.53719135802476" y="615.0" />
+      <point x="422.66975308641975" y="615.0" />
+      <point x="422.66975308641975" y="444.0" />
+      <point x="458.5" y="444.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesFactory" target="Handson2_2_DesignPrinciples.Service.Headlight" relationship="DEPENDENCY">
+      <point x="-49.25" y="-62.0" />
+      <point x="522.6205246913581" y="424.0" />
+      <point x="349.5" y="424.0" />
+      <point x="349.5" y="96.0" />
+      <point x="411.9200617283951" y="96.0" />
+      <point x="411.9200617283951" y="86.0" />
+      <point x="261.7026234567901" y="86.0" />
+      <point x="28.5" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.FactoryController" target="Handson2_2_DesignPrinciples.Service.MercedesFactory" relationship="CREATE">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesFactory" target="Handson2_2_DesignPrinciples.Service.AudiFactory" relationship="DEPENDENCY">
+      <point x="-16.41666666666663" y="-62.0" />
+      <point x="555.4538580246915" y="444.0" />
+      <point x="458.5" y="444.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesHeadlight" target="Handson2_2_DesignPrinciples.Service.Headlight" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="87.5" y="106.0" />
+      <point x="169.03981481481492" y="106.0" />
+      <point x="169.03981481481492" y="96.0" />
+      <point x="204.7026234567901" y="96.0" />
+      <point x="-28.5" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiFactory" target="Handson2_2_DesignPrinciples.Service.Factory" relationship="GENERALIZATION">
+      <point x="78.80000000000001" y="-62.0" />
+      <point x="537.3" y="258.0" />
+      <point x="769.2871913580248" y="258.0" />
+      <point x="769.2871913580248" y="248.0" />
+      <point x="730.6999999999999" y="248.0" />
+      <point x="-49.25" y="50.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesFactory" target="Handson2_2_DesignPrinciples.Service.Tire" relationship="DEPENDENCY">
+      <point x="82.08333333333337" y="-62.0" />
+      <point x="653.9538580246915" y="444.0" />
+      <point x="888.9499999999999" y="444.0" />
+      <point x="888.9499999999999" y="86.0" />
+      <point x="823.2447530864197" y="86.0" />
+      <point x="823.2447530864197" y="76.0" />
+      <point x="686.3776234567902" y="76.0" />
+      <point x="20.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.TestingPrinciples" target="Handson2_2_DesignPrinciples.Service.Factory" relationship="DEPENDENCY">
+      <point x="39.25" y="-51.0" />
+      <point x="737.2038580246914" y="769.0" />
+      <point x="793.3697530864197" y="769.0" />
+      <point x="793.3697530864197" y="248.0" />
+      <point x="829.1999999999999" y="248.0" />
+      <point x="49.25" y="50.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiFactory" target="Handson2_2_DesignPrinciples.Service.AudiHeadlight" relationship="CREATE">
+      <point x="-78.80000000000007" y="-62.0" />
+      <point x="379.69999999999993" y="258.0" />
+      <point x="267.0" y="258.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.Factory" target="Handson2_2_DesignPrinciples.Service.Tire" relationship="DEPENDENCY">
+      <point x="49.25" y="-50.5" />
+      <point x="829.1999999999999" y="86.0" />
+      <point x="823.2447530864197" y="86.0" />
+      <point x="823.2447530864197" y="76.0" />
+      <point x="686.3776234567902" y="76.0" />
+      <point x="20.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiFactory" target="Handson2_2_DesignPrinciples.Service.AudiTire" relationship="CREATE">
+      <point x="0.0" y="-62.0" />
+      <point x="458.5" y="258.0" />
+      <point x="441.44999999999993" y="258.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.TestingPrinciples" target="Handson2_2_DesignPrinciples.Service.FactoryController" relationship="CREATE">
+      <point x="-39.25" y="-51.0" />
+      <point x="658.7038580246914" y="769.0" />
+      <point x="571.8705246913581" y="769.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.MercedesFactory" target="Handson2_2_DesignPrinciples.Service.MercedesTire" relationship="CREATE">
+      <point x="16.41666666666663" y="-62.0" />
+      <point x="588.2871913580248" y="444.0" />
+      <point x="593.4499999999999" y="444.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Handson2_2_DesignPrinciples.Service.AudiFactory" target="Handson2_2_DesignPrinciples.Service.Headlight" relationship="DEPENDENCY">
+      <point x="-39.400000000000034" y="-62.0" />
+      <point x="419.0999999999999" y="248.0" />
+      <point x="350.19999999999993" y="248.0" />
+      <point x="350.19999999999993" y="96.0" />
+      <point x="411.9200617283951" y="96.0" />
+      <point x="411.9200617283951" y="86.0" />
+      <point x="261.7026234567901" y="86.0" />
+      <point x="28.5" y="28.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.697928026172301" showDependencies="true" x="442.0" y="448.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

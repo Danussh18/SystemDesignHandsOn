@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Handson2_1_DesignPrinciples.InterfaceImpl</OriginalElement>
+  <nodes>
+    <node x="0.0" y="23.0">Handson2_1_DesignPrinciples.InterfaceImpl.IUpdateElement</node>
+    <node x="188.65972222222223" y="336.0">Handson2_1_DesignPrinciples.InterfaceImpl.TestingPrinciples</node>
+    <node x="280.15277777777777" y="162.0">Handson2_1_DesignPrinciples.InterfaceImpl.AddElement</node>
+    <node x="197.15972222222223" y="0.0">Handson2_1_DesignPrinciples.InterfaceImpl.DBConn</node>
+    <node x="95.15277777777777" y="162.0">Handson2_1_DesignPrinciples.InterfaceImpl.UpdateElement</node>
+    <node x="369.31944444444446" y="23.0">Handson2_1_DesignPrinciples.InterfaceImpl.IAddElement</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.UpdateElement" target="Handson2_1_DesignPrinciples.InterfaceImpl.IUpdateElement" relationship="REALIZATION">
+      <point x="-55.0" y="-62.0" />
+      <point x="122.65277777777777" y="142.0" />
+      <point x="82.5" y="142.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.AddElement" target="Handson2_1_DesignPrinciples.InterfaceImpl.DBConn" relationship="DEPENDENCY">
+      <point x="-49.33333333333334" y="-62.0" />
+      <point x="304.81944444444446" y="142.0" />
+      <point x="226.4236111111111" y="142.0" />
+      <point x="226.4236111111111" y="122.0" />
+      <point x="232.15972222222223" y="122.0" />
+      <point x="-35.0" y="51.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.TestingPrinciples" target="Handson2_1_DesignPrinciples.InterfaceImpl.AddElement" relationship="CREATE">
+      <point x="39.25" y="-51.0" />
+      <point x="306.40972222222223" y="311.0" />
+      <point x="354.15277777777777" y="311.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.AddElement" target="Handson2_1_DesignPrinciples.InterfaceImpl.IAddElement" relationship="REALIZATION">
+      <point x="49.33333333333334" y="-62.0" />
+      <point x="403.4861111111111" y="142.0" />
+      <point x="443.31944444444446" y="142.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.UpdateElement" target="Handson2_1_DesignPrinciples.InterfaceImpl.DBConn" relationship="DEPENDENCY">
+      <point x="0.0" y="-62.0" />
+      <point x="177.65277777777777" y="142.0" />
+      <point x="226.4236111111111" y="142.0" />
+      <point x="226.4236111111111" y="122.0" />
+      <point x="232.15972222222223" y="122.0" />
+      <point x="-35.0" y="51.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.UpdateElement" target="Handson2_1_DesignPrinciples.InterfaceImpl.DBConn" relationship="TO_ONE">
+      <point x="55.0" y="-62.0" />
+      <point x="232.65277777777777" y="132.0" />
+      <point x="309.3125" y="132.0" />
+      <point x="309.3125" y="122.0" />
+      <point x="302.15972222222223" y="122.0" />
+      <point x="35.0" y="51.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.TestingPrinciples" target="Handson2_1_DesignPrinciples.InterfaceImpl.UpdateElement" relationship="CREATE">
+      <point x="-39.25" y="-51.0" />
+      <point x="227.90972222222223" y="311.0" />
+      <point x="177.65277777777777" y="311.0" />
+      <point x="0.0" y="62.0" />
+    </edge>
+    <edge source="Handson2_1_DesignPrinciples.InterfaceImpl.AddElement" target="Handson2_1_DesignPrinciples.InterfaceImpl.DBConn" relationship="TO_ONE">
+      <point x="0.0" y="-62.0" />
+      <point x="354.15277777777777" y="132.0" />
+      <point x="309.3125" y="132.0" />
+      <point x="309.3125" y="122.0" />
+      <point x="302.15972222222223" y="122.0" />
+      <point x="35.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="259.0" y="214.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
