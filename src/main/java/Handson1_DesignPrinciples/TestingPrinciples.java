@@ -1,9 +1,10 @@
-package Handson1_DesignPrinciples.Singleton_Implementation;
+package Handson1_DesignPrinciples;
 
-import Handson1_DesignPrinciples.Singleton_Implementation.PhoneOrderImpl;
-import Handson1_DesignPrinciples.Singleton_Implementation.RepairImpl;
+import Handson1_DesignPrinciples.SingleResponsiblePrinciple.PhoneOrderImpl;
+import Handson1_DesignPrinciples.SingleResponsiblePrinciple.RepairImpl;
 
 import java.util.Scanner;
+import java.util.logging.Logger;
 
 public class TestingPrinciples {
 

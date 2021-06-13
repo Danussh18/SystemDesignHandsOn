@@ -1,4 +1,4 @@
-package Handson1_DesignPrinciples.Singleton_Principle;
+package Handson1_DesignPrinciples.InterfaceSegregation;
 
 public interface Order {
     void ProcessOrder(String modelName);
