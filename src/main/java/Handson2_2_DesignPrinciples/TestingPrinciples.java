@@ -1,14 +1,15 @@
 package Handson2_2_DesignPrinciples;
 
-import Handson2_2_DesignPrinciples.Factory.Factory;
+import Handson2_2_DesignPrinciples.AbstractClasses.Factory;
 import Handson2_2_DesignPrinciples.FactoryController.FactoryController;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Locale;
 import java.util.Scanner;
-import java.util.logging.Logger;
 
 public class TestingPrinciples {
-    private static final Logger logger = Logger.getLogger(TestingPrinciples.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(TestingPrinciples.class);
 
     public static void main(String[] args){
         logger.info("------Started Main---------");
@@ -22,7 +23,8 @@ public class TestingPrinciples {
 
         factory.makeHeadLight();
         factory.makeTire();
-        logger.info("your CAR Brand is Ready "+car);
+
+        logger.info("your CAR Brand is "+car);
         logger.info("---------Exiting Main---------");
 
     }

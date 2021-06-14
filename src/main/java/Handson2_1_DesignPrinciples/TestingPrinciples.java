@@ -1,20 +1,25 @@
 package Handson2_1_DesignPrinciples;
 
-import Handson2_1_DesignPrinciples.InterfaceImpl.AddElement;
-import Handson2_1_DesignPrinciples.InterfaceImpl.UpdateElement;
-
-import java.util.logging.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class TestingPrinciples {
-    private static final Logger logger = Logger.getLogger(TestingPrinciples.class.getName());
+    private static final Logger logger = LoggerFactory.getLogger(TestingPrinciples.class);
 
     public static void main(String[] args){
         logger.info("------Started Main---------");
-        AddElement addElementObj = new AddElement();
-        addElementObj.addElement();
+        DBConn dbConn = DBConn.getInstance();
 
-        UpdateElement updateElementObj = new UpdateElement();
-        updateElementObj.updateElement();
+        DBConn dbConn1 = DBConn.getInstance();
+
+        logger.info("HashCode of 1st Object is "+dbConn.hashCode());
+        logger.info("HashCode of 1st Object is "+dbConn1.hashCode());
+
+        if(dbConn == dbConn1)
+            logger.info("Singleton Class");
+        else
+            logger.info("Not a Singleton Class");
+
         logger.info("---------Exiting Main---------");
     }
 }

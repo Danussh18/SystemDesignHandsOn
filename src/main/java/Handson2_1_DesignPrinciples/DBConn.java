@@ -1,10 +1,10 @@
-package Handson2_1_DesignPrinciples.SingletonClass;
+package Handson2_1_DesignPrinciples;
 
-import java.util.logging.Logger;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 public class DBConn {
 
-    Logger logger = Logger.getLogger(DBConn.class.getName());
+    private static Logger logger = LoggerFactory.getLogger(DBConn.class);
 
     private DBConn(){
         logger.info("--------Instance Created----------");
