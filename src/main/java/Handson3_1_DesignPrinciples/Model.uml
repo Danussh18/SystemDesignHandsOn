@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Handson3_1_DesignPrinciples.Model</OriginalElement>
+  <nodes>
+    <node x="380.3581730769231" y="411.0">Handson3_1_DesignPrinciples.Model.Coke</node>
+    <node x="497.58253205128204" y="949.0">Handson3_1_DesignPrinciples.Model.TestingPrinciples</node>
+    <node x="443.6065705128205" y="258.0">Handson3_1_DesignPrinciples.Model.ColdDrink</node>
+    <node x="0.0" y="116.5">Handson3_1_DesignPrinciples.Model.Wrapper</node>
+    <node x="522.3581730769231" y="411.0">Handson3_1_DesignPrinciples.Model.Pepsi</node>
+    <node x="238.3581730769231" y="411.0">Handson3_1_DesignPrinciples.Model.VegBurger</node>
+    <node x="282.7748397435898" y="0.0">Handson3_1_DesignPrinciples.Model.Packing</node>
+    <node x="581.4238782051282" y="564.0">Handson3_1_DesignPrinciples.Model.Meal</node>
+    <node x="429.83253205128204" y="795.0">Handson3_1_DesignPrinciples.Model.MealBuilder</node>
+    <node x="154.3565705128205" y="258.0">Handson3_1_DesignPrinciples.Model.Burger</node>
+    <node x="137.0" y="116.5">Handson3_1_DesignPrinciples.Model.Bottle</node>
+    <node x="559.0" y="106.0">Handson3_1_DesignPrinciples.Model.Item</node>
+    <node x="75.3581730769231" y="411.0">Handson3_1_DesignPrinciples.Model.ChickenBurger</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Handson3_1_DesignPrinciples.Model.Meal" target="Handson3_1_DesignPrinciples.Model.Pepsi" relationship="GENERALIZATION">
+      <point x="-69.0" y="-84.5" />
+      <point x="5.565705128205082" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Burger" target="Handson3_1_DesignPrinciples.Model.Packing" relationship="DEPENDENCY">
+      <point x="71.50042948717953" y="0.0" />
+      <point x="422.0" y="308.5" />
+      <point x="422.0" y="28.0" />
+      <point x="58.5001602564102" y="0.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Item" target="Handson3_1_DesignPrinciples.Model.Packing" relationship="DEPENDENCY">
+      <point x="-71.5" y="0.0" />
+      <point x="422.0" y="156.0" />
+      <point x="422.0" y="28.0" />
+      <point x="58.5001602564102" y="0.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Burger" target="Handson3_1_DesignPrinciples.Model.Item" relationship="REALIZATION">
+      <point x="4.294871795025301E-4" y="-50.5" />
+      <point x="225.857" y="232.0" />
+      <point x="630.5" y="232.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.ChickenBurger" target="Handson3_1_DesignPrinciples.Model.Burger" relationship="GENERALIZATION">
+      <point x="-1.7307692309032063E-4" y="-50.5" />
+      <point x="146.858" y="385.0" />
+      <point x="225.857" y="385.0" />
+      <point x="4.294871795025301E-4" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.ColdDrink" target="Handson3_1_DesignPrinciples.Model.Packing" relationship="DEPENDENCY">
+      <point x="-71.49957051282053" y="0.0" />
+      <point x="422.0" y="308.5" />
+      <point x="422.0" y="28.0" />
+      <point x="58.5001602564102" y="0.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Pepsi" target="Handson3_1_DesignPrinciples.Model.ColdDrink" relationship="GENERALIZATION">
+      <point x="-1.7307692314716405E-4" y="-50.5" />
+      <point x="583.358" y="385.0" />
+      <point x="515.107" y="385.0" />
+      <point x="4.29487179417265E-4" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Bottle" target="Handson3_1_DesignPrinciples.Model.Packing" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="195.5" y="87.0" />
+      <point x="341.275" y="87.0" />
+      <point x="1.602564101972348E-4" y="28.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Meal" target="Handson3_1_DesignPrinciples.Model.Item" relationship="DEPENDENCY">
+      <point x="18.93429487179492" y="-84.5" />
+      <point x="46.358173076923094" y="50.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.MealBuilder" target="Handson3_1_DesignPrinciples.Model.ChickenBurger" relationship="CREATE">
+      <point x="-93.99999999999994" y="0.0" />
+      <point x="146.8581730769231" y="846.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Coke" target="Handson3_1_DesignPrinciples.Model.ColdDrink" relationship="GENERALIZATION">
+      <point x="-1.7307692309032063E-4" y="-50.5" />
+      <point x="441.358" y="385.0" />
+      <point x="515.107" y="385.0" />
+      <point x="4.29487179417265E-4" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.MealBuilder" target="Handson3_1_DesignPrinciples.Model.Meal" relationship="CREATE">
+      <point x="4.6794871798283566E-4" y="51.0" />
+      <point x="523.833" y="923.0" />
+      <point x="657.924" y="923.0" />
+      <point x="1.217948718021944E-4" y="84.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.MealBuilder" target="Handson3_1_DesignPrinciples.Model.Pepsi" relationship="CREATE">
+      <point x="6.025641025641107" y="-51.0" />
+      <point x="-53.5" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.ColdDrink" target="Handson3_1_DesignPrinciples.Model.Bottle" relationship="CREATE">
+      <point x="-14.999570512820583" y="-50.5" />
+      <point x="500.10699999999997" y="171.0" />
+      <point x="58.5" y="15.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Meal" target="Handson3_1_DesignPrinciples.Model.Item" relationship="TO_MANY">
+      <point x="3.9342948717949184" y="-84.5" />
+      <point x="31.358173076923094" y="50.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.MealBuilder" target="Handson3_1_DesignPrinciples.Model.Meal" relationship="TO_ONE">
+      <point x="86.5" y="-51.0" />
+      <point x="-47.59134615384619" y="84.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Wrapper" target="Handson3_1_DesignPrinciples.Model.Packing" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="58.5" y="87.0" />
+      <point x="341.275" y="87.0" />
+      <point x="1.602564101972348E-4" y="28.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.MealBuilder" target="Handson3_1_DesignPrinciples.Model.Coke" relationship="CREATE">
+      <point x="-82.47435897435889" y="-51.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.TestingPrinciples" target="Handson3_1_DesignPrinciples.Model.MealBuilder" relationship="CREATE">
+      <point x="-67.24953205128202" y="-51.0" />
+      <point x="-14.999532051282017" y="51.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.Burger" target="Handson3_1_DesignPrinciples.Model.Wrapper" relationship="CREATE">
+      <point x="-71.5" y="0.0" />
+      <point x="57.858173076923094" y="308.5" />
+      <point x="-0.6418269230769056" y="39.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.ColdDrink" target="Handson3_1_DesignPrinciples.Model.Item" relationship="REALIZATION">
+      <point x="4.29487179417265E-4" y="-50.5" />
+      <point x="515.107" y="232.0" />
+      <point x="630.5" y="232.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.VegBurger" target="Handson3_1_DesignPrinciples.Model.Burger" relationship="GENERALIZATION">
+      <point x="-1.7307692309032063E-4" y="-50.5" />
+      <point x="299.358" y="385.0" />
+      <point x="225.857" y="385.0" />
+      <point x="4.294871795025301E-4" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.MealBuilder" target="Handson3_1_DesignPrinciples.Model.VegBurger" relationship="CREATE">
+      <point x="-93.99999999999994" y="-15.0" />
+      <point x="299.3581730769231" y="831.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="Handson3_1_DesignPrinciples.Model.TestingPrinciples" target="Handson3_1_DesignPrinciples.Model.Meal" relationship="DEPENDENCY">
+      <point x="4.6794871798283566E-4" y="-51.0" />
+      <point x="576.083" y="923.0" />
+      <point x="657.924" y="923.0" />
+      <point x="1.217948718021944E-4" y="84.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.3949579831932773" showDependencies="true" x="367.5" y="525.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
