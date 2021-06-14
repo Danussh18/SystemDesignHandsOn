@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Handson4_1_DesignPrinciples.model</OriginalElement>
+  <nodes>
+    <node x="318.5" y="106.0">Handson4_1_DesignPrinciples.model.Rectangle</node>
+    <node x="164.5" y="106.0">Handson4_1_DesignPrinciples.model.Circle</node>
+    <node x="60.73214285714286" y="0.0">Handson4_1_DesignPrinciples.model.Shape</node>
+    <node x="81.08928571428572" y="500.0">Handson4_1_DesignPrinciples.model.Main</node>
+    <node x="10.5" y="106.0">Handson4_1_DesignPrinciples.model.Square</node>
+    <node x="74.08928571428572" y="260.0">Handson4_1_DesignPrinciples.model.ShapeMaker</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Handson4_1_DesignPrinciples.model.Rectangle" target="Handson4_1_DesignPrinciples.model.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="385.5" y="86.0" />
+      <point x="230.39285714285714" y="86.0" />
+      <point x="230.39285714285714" y="76.0" />
+      <point x="143.98214285714286" y="76.0" />
+      <point x="27.75" y="28.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.ShapeMaker" target="Handson4_1_DesignPrinciples.model.Square" relationship="CREATE">
+      <point x="-20.5" y="-95.0" />
+      <point x="135.58928571428572" y="229.0" />
+      <point x="77.5" y="229.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.ShapeMaker" target="Handson4_1_DesignPrinciples.model.Shape" relationship="TO_ONE">
+      <point x="-61.5" y="-95.0" />
+      <point x="94.58928571428572" y="239.0" />
+      <point x="0.0" y="239.0" />
+      <point x="0.0" y="76.0" />
+      <point x="88.48214285714286" y="76.0" />
+      <point x="-27.75" y="28.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.Main" target="Handson4_1_DesignPrinciples.model.ShapeMaker" relationship="CREATE">
+      <point x="0.0" y="-39.5" />
+      <point x="0.0" y="95.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.ShapeMaker" target="Handson4_1_DesignPrinciples.model.Circle" relationship="CREATE">
+      <point x="20.5" y="-95.0" />
+      <point x="176.58928571428572" y="229.0" />
+      <point x="231.5" y="229.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.Circle" target="Handson4_1_DesignPrinciples.model.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="231.5" y="86.0" />
+      <point x="230.39285714285714" y="86.0" />
+      <point x="230.39285714285714" y="76.0" />
+      <point x="143.98214285714286" y="76.0" />
+      <point x="27.75" y="28.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.Square" target="Handson4_1_DesignPrinciples.model.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="77.5" y="86.0" />
+      <point x="230.39285714285714" y="86.0" />
+      <point x="230.39285714285714" y="76.0" />
+      <point x="143.98214285714286" y="76.0" />
+      <point x="27.75" y="28.0" />
+    </edge>
+    <edge source="Handson4_1_DesignPrinciples.model.ShapeMaker" target="Handson4_1_DesignPrinciples.model.Rectangle" relationship="CREATE">
+      <point x="61.5" y="-95.0" />
+      <point x="217.58928571428572" y="239.0" />
+      <point x="385.5" y="239.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.656093489148581" showDependencies="true" x="226.5" y="289.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

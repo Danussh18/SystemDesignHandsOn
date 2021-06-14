@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Handson3_3_DesignPrinciples.repository</OriginalElement>
+  <nodes>
+    <node x="60.32936507936506" y="106.0">Handson3_3_DesignPrinciples.repository.MovableAdapterImpl</node>
+    <node x="444.29166666666663" y="293.0">Handson3_3_DesignPrinciples.repository.Main</node>
+    <node x="0.0" y="0.0">Handson3_3_DesignPrinciples.repository.MovableAdapter</node>
+    <node x="533.5079365079365" y="129.0">Handson3_3_DesignPrinciples.repository.BugattiVeyron</node>
+    <node x="37.29166666666663" y="304.5">Handson3_3_DesignPrinciples.repository.MainTests</node>
+    <node x="331.0625" y="0.0">Handson3_3_DesignPrinciples.repository.Movable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Handson3_3_DesignPrinciples.repository.MainTests" target="Handson3_3_DesignPrinciples.repository.MovableAdapter" relationship="DEPENDENCY">
+      <point x="-145.125" y="-39.5" />
+      <point x="85.66666666666663" y="272.0" />
+      <point x="18.0" y="272.0" />
+      <point x="18.0" y="76.0" />
+      <point x="39.75" y="76.0" />
+      <point x="-39.75" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.MovableAdapterImpl" target="Handson3_3_DesignPrinciples.repository.MovableAdapter" relationship="REALIZATION">
+      <point x="-81.66666666666669" y="-62.5" />
+      <point x="101.16269841269838" y="86.0" />
+      <point x="119.25" y="86.0" />
+      <point x="39.75" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.MainTests" target="Handson3_3_DesignPrinciples.repository.Movable" relationship="DEPENDENCY">
+      <point x="48.375" y="-39.5" />
+      <point x="279.16666666666663" y="262.0" />
+      <point x="315.82936507936506" y="262.0" />
+      <point x="315.82936507936506" y="86.0" />
+      <point x="403.2212301587301" y="86.0" />
+      <point x="403.2212301587301" y="76.0" />
+      <point x="392.0625" y="76.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.MainTests" target="Handson3_3_DesignPrinciples.repository.BugattiVeyron" relationship="CREATE">
+      <point x="145.125" y="-39.5" />
+      <point x="375.91666666666663" y="262.0" />
+      <point x="604.5079365079365" y="262.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.Main" target="Handson3_3_DesignPrinciples.repository.MovableAdapter" relationship="DEPENDENCY">
+      <point x="-56.25" y="-51.0" />
+      <point x="463.04166666666663" y="252.0" />
+      <point x="36.537698412698376" y="252.0" />
+      <point x="36.537698412698376" y="86.0" />
+      <point x="18.0" y="86.0" />
+      <point x="18.0" y="76.0" />
+      <point x="39.75" y="76.0" />
+      <point x="-39.75" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.BugattiVeyron" target="Handson3_3_DesignPrinciples.repository.Movable" relationship="REALIZATION">
+      <point x="0.0" y="-39.5" />
+      <point x="604.5079365079365" y="76.0" />
+      <point x="432.72916666666663" y="76.0" />
+      <point x="40.66666666666663" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.MovableAdapterImpl" target="Handson3_3_DesignPrinciples.repository.Movable" relationship="TO_ONE">
+      <point x="0.0" y="-62.5" />
+      <point x="182.82936507936506" y="76.0" />
+      <point x="351.39583333333326" y="76.0" />
+      <point x="-40.666666666666686" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.Main" target="Handson3_3_DesignPrinciples.repository.BugattiVeyron" relationship="CREATE">
+      <point x="56.25" y="-51.0" />
+      <point x="575.5416666666666" y="262.0" />
+      <point x="604.5079365079365" y="262.0" />
+      <point x="0.0" y="39.5" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.Main" target="Handson3_3_DesignPrinciples.repository.Movable" relationship="DEPENDENCY">
+      <point x="18.75" y="-51.0" />
+      <point x="538.0416666666666" y="252.0" />
+      <point x="523.0079365079365" y="252.0" />
+      <point x="523.0079365079365" y="86.0" />
+      <point x="403.2212301587301" y="86.0" />
+      <point x="403.2212301587301" y="76.0" />
+      <point x="392.0625" y="76.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.MovableAdapterImpl" target="Handson3_3_DesignPrinciples.repository.Movable" relationship="DEPENDENCY">
+      <point x="81.66666666666669" y="-62.5" />
+      <point x="264.49603174603175" y="86.0" />
+      <point x="403.2212301587301" y="86.0" />
+      <point x="403.2212301587301" y="76.0" />
+      <point x="392.0625" y="76.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.MainTests" target="Handson3_3_DesignPrinciples.repository.MovableAdapterImpl" relationship="CREATE">
+      <point x="-48.375" y="-39.5" />
+      <point x="0.0" y="62.5" />
+    </edge>
+    <edge source="Handson3_3_DesignPrinciples.repository.Main" target="Handson3_3_DesignPrinciples.repository.MovableAdapterImpl" relationship="CREATE">
+      <point x="-18.75" y="-51.0" />
+      <point x="500.54166666666663" y="272.0" />
+      <point x="182.82936507936506" y="272.0" />
+      <point x="0.0" y="62.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="338.0" y="197.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
