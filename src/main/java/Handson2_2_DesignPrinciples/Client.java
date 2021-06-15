@@ -1,6 +1,6 @@
 package Handson2_2_DesignPrinciples;
 
-import Handson2_2_DesignPrinciples.Factory.Factory;
+import Handson2_2_DesignPrinciples.AbstractClasses.Factory;
 import Handson2_2_DesignPrinciples.FactoryController.FactoryController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,13 +19,18 @@ public class Client {
 
         FactoryController factoryController = new FactoryController();
 
-        Factory factory = factoryController.getFactory(car);
+        try {
+            Factory factory = factoryController.getFactory(car);
 
-        factory.makeHeadLight();
-        factory.makeTire();
-
-        logger.info("your CAR Brand is "+car);
-        logger.info("---------Exiting Main---------");
-
+            factory.makeHeadLight();
+            factory.makeTire();
+            logger.info("your CAR Brand is "+car);
+        } catch (Exception e) {
+            logger.info("we only manufacture Audi or Mercedes");
+            e.printStackTrace();
+        }
+        finally {
+            logger.info("---------Exiting Main---------");
+        }
     }
 }

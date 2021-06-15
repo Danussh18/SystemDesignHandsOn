@@ -1,9 +1,8 @@
 package Handson2_2_DesignPrinciples.FactoryController;
 
+import Handson2_2_DesignPrinciples.AbstractClasses.Factory;
 import Handson2_2_DesignPrinciples.Factory.AudiFactory;
-import Handson2_2_DesignPrinciples.Factory.Factory;
 import Handson2_2_DesignPrinciples.Factory.MercedesFactory;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 public class FactoryController {

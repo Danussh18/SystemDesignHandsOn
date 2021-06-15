@@ -8,6 +8,6 @@ public class MercedesTire extends Tire {
     private static final Logger logger = LoggerFactory.getLogger(MercedesTire.class);
 
     public MercedesTire(){
-        logger.info("-------Mercedes Tire is Fixed--------");
+        logger.info("-------Mercedes Tire is Fixed to the car--------");
     }
 }
