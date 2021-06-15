@@ -2,7 +2,6 @@ package Handson2_2_DesignPrinciples.Factory;
 
 import Handson2_2_DesignPrinciples.AbstractClasses.Headlight;
 import Handson2_2_DesignPrinciples.AbstractClasses.Tire;
-import Handson2_2_DesignPrinciples.AbstractClasses.Factory;
 import Handson2_2_DesignPrinciples.Service.MercedesHeadlight;
 import Handson2_2_DesignPrinciples.Service.MercedesTire;
 

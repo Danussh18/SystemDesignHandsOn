@@ -1,6 +1,6 @@
 package Handson2_2_DesignPrinciples;
 
-import Handson2_2_DesignPrinciples.AbstractClasses.Factory;
+import Handson2_2_DesignPrinciples.Factory.Factory;
 import Handson2_2_DesignPrinciples.FactoryController.FactoryController;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -8,8 +8,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class TestingPrinciples {
-    private static final Logger logger = LoggerFactory.getLogger(TestingPrinciples.class);
+public class Client {
+    private static final Logger logger = LoggerFactory.getLogger(Client.class);
 
     public static void main(String[] args){
         logger.info("------Started Main---------");
